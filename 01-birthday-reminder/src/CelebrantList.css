@@ -1,0 +1,21 @@
+.person {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.person img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+  box-shadow: var(--light-shadow);
+}
+
+.person h4 {
+  margin: 0.5rem 0;
+}
+
+.person p {
+  margin: 0;
+}
