@@ -1,9 +1,15 @@
 :root {
+  --clr-pink: #f28ab2;
+  --clr-white: #fff;
+  --radius: 0.25rem;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
+  background-color: var(--clr-pink);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
