@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './CelebrantList.css';
+
 const CelebrantList = ({ people }) => {
   return <>
     {people.map((person) => {
