@@ -12,7 +12,7 @@ function App() {
     <main>
       <div className="card">
         <h3>{people.length} birthdays today</h3>
-        <CelebrantList />
+        <CelebrantList people={people} />
         <button onClick={() => setPeople([])}>Clear All</button>
       </div>
     </main>
