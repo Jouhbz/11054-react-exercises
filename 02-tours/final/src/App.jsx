@@ -19,7 +19,7 @@ function App() {
       setLoading(false);
 
       // Demo an empty tours and confirm the conditional rendering is working
-      setTours([]);
+      setTours(tours);
     } catch (error) {
       setLoading(false);
       console.error(error);
@@ -53,7 +53,11 @@ function App() {
     );
   }
 
-  return <h2>Tours Project Setup</h2>;
+  return (
+    <main>
+      <Tours tours={tours} />
+    </main>
+  );
 }
 
 export default App;
